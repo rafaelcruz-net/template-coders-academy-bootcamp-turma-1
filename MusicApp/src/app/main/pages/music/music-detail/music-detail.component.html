@@ -1,0 +1,55 @@
+<div id="helper-classes" class="page-layout simple tabbed" fxLayout="column">
+    <div class="header accent p-24 h-160" fxLayout="row" fxLayoutAlign="start center">
+        <div fxLayout="column" fxLayoutAlign="center start">
+            <button mat-button class="pl-0">
+                <mat-icon>keyboard_backspace</mat-icon>
+                Voltar
+            </button>
+            <div class="h1 mt-16"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="helper-classes-padding-margin" class="p-24">
+            <div class="mat-card mat-elevation-z4 p-24" fxLayout="column">
+                <div fxLayout="column" fxLayout.gt-md="row" class="mb-24">
+                    <div>
+                        <h1 class="m-0">LOREM IPSUM</h1>
+                        <h4 class="mt-0 secondary-text">LOREIM IPSUM</h4>
+                        <p>
+                            LOREM IPSUM
+                        </p>
+                        <div fxLayout="column" fxLayout.gt-md="row">
+                            <div class="preview" fxLayout="column" fxLayoutAlign="top" fxFlex="50"
+                                class="mt-24 w-100-p">
+                                <img src="" style="max-width: 640px" />
+                            </div>
+                            <div class="preview" fxLayout="column" class="mt-24 w-100-p" fxLayoutAlign="top"
+                                fxFlex="50">
+                                <div class="demo-sidebar">
+                                    <mat-list>
+                                        <h3 matSubheader>Músicas</h3>
+                                        <!-- <mat-list-item *ngFor="let item of music;">
+                                            <mat-icon class="mr-24">play_circle_filled</mat-icon>
+                                            <h2>{{item.name}}</h2>
+                                            <h3 matSubheader>{{getMusicDuration(item.duration)}}</h3>
+                                            <button mat-icon-button aria-label="Toggle star"
+                                                (click)="toogleMusicFavorite(item.id)">
+                                                <mat-icon class="amber-fg" *ngIf="isFavoriteMusic(item.id)">star
+                                                </mat-icon>
+                                                <mat-icon class="secondary-text" *ngIf="!isFavoriteMusic(item.id)">
+                                                    star_border</mat-icon>
+
+                                            </button>
+                                            <mat-divider></mat-divider>
+                                        </mat-list-item> -->
+                                    </mat-list>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / CONTENT -->
+    </div>
+</div>

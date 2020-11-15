@@ -1,0 +1,52 @@
+{
+  "name": "Definitely Maybe",
+  "band": "OASIS",
+  "description": "Oasis foi uma banda inglesa de rock formada no ano de 1991, na cidade de Manchester. Até a sua extinção em 2009, era composta por Liam Gallagher, Noel Gallagher, Gem Archer, Andy Bell e Chris Sharrock",
+  "backdrop": "https://www.hypeness.com.br/1/2018/03/Capas-12.jpg",
+  "musics": [
+    {
+      "name": "Rock 'N' Roll Star",
+      "duration": 322 
+    },
+    {
+      "name": "Shakermaker",
+      "duration": 308 
+    },
+    {
+      "name": "Live Forever",
+      "duration": 276 
+    },
+    {
+      "name": "Up in the Sky",
+      "duration": 248 
+    },
+    {
+      "name": "Columbia",
+      "duration": 377 
+    },
+    {
+      "name": "Supersonic",
+      "duration": 283 
+    },
+    {
+      "name": "Bring It on Down",
+      "duration": 257 
+    },
+    {
+      "name": "Cigarettes & Alcohol",
+      "duration": 289 
+    },
+    {
+      "name": "Digsy's Dinner",
+      "duration": 152 
+    },
+    {
+      "name": "Slide Away",
+      "duration": 392 
+    },
+    {
+      "name": "Married With Children",
+      "duration": 192 
+    }
+  ]
+}

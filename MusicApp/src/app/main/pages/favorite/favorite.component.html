@@ -1,0 +1,65 @@
+<div id="helper-classes" class="page-layout simple tabbed" fxLayout="column">
+  <div class="header accent p-24 h-160" fxLayout="row" fxLayoutAlign="start center">
+    <div fxLayout="column" fxLayoutAlign="center start">
+      <div class="h1 mt-16">Músicas Favoritas</div>
+    </div>
+  </div>
+  <div class="content">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+      <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <td mat-cell *matCellDef="let element;let i = index">{{i + 1}}</td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Nome</th>
+        <td mat-cell *matCellDef="let element">{{element.name}} </td>
+      </ng-container>
+      <ng-container matColumnDef="duration">
+        <th mat-header-cell *matHeaderCellDef>Duração</th>
+        <td mat-cell *matCellDef="let element"> {{element.duration}} </td>
+      </ng-container>
+      <ng-container matColumnDef="band">
+        <th mat-header-cell *matHeaderCellDef>Artista</th>
+        <td mat-cell *matCellDef="let element"> {{element.band}} </td>
+      </ng-container>
+      <ng-container matColumnDef="avatar">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let element">
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="album">
+        <th mat-header-cell *matHeaderCellDef>Album</th>
+        <td mat-cell *matCellDef="let element">
+          <img class="avatar" *ngIf="element.backdrop" [alt]="element.name" [src]="element.backdrop" />
+          <span style="position: relative;top:10px"> {{element.albumName}}</span>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef>Ações</th>
+        <td mat-cell *matCellDef="let element">
+          <div fxFlex="row" fxLayoutAlign="end center">
+            <button mat-icon-button [matMenuTriggerFor]="moreMenu" aria-label="More"
+              (click)="$event.stopPropagation();">
+              <mat-icon class="secondary-text">more_vert</mat-icon>
+            </button>
+            <mat-menu #moreMenu="matMenu">
+              <button mat-menu-item aria-label="detail">
+                <mat-icon>visibility</mat-icon>
+                <span>Ver Album</span>
+              </button>
+              <mat-divider></mat-divider>
+              <button mat-menu-item aria-label="remove">
+                <mat-icon>delete</mat-icon>
+                <span>Remover dos Favoritos</span>
+              </button>
+
+            </mat-menu>
+          </div>
+
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+</div>

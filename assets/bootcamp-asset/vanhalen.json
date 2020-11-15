@@ -1,0 +1,44 @@
+{
+  "name": "Jump",
+  "band": "Van Halen",
+  "description": "Van Halen é uma banda de hard rock norte-americana formada em 1972. Foi fundada pelos irmãos Eddie Van Halen e Alex Van Halen, que mais tarde juntou o cantor David Lee Roth e o baixista Michael Anthony",
+  "backdrop": "https://www.hypeness.com.br/1/2018/03/Capas-48.jpg",
+  "musics": [
+    {
+      "name": "1984",
+      "duration": 67 
+    },
+    {
+      "name": "Jump",
+      "duration": 241 
+    },
+    {
+      "name": "Panama",
+      "duration": 210
+    },
+    {
+      "name": "Top Jimmy",
+      "duration": 179 
+    },
+    {
+      "name": "Drop Dead Legs",
+      "duration": 254 
+    },
+    {
+      "name": "Hot for Teacher",
+      "duration": 282 
+    },
+    {
+      "name": "I'll Wait",
+      "duration": 280 
+    },
+    {
+      "name": "Girl Gone Bad",
+      "duration": 273 
+    },
+    {
+      "name": "House of Pain",
+      "duration": 199 
+    }
+  ]
+}

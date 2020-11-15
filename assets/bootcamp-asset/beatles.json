@@ -1,0 +1,41 @@
+{
+  "name": "Abbey Road",
+  "band": "The Beatles",	
+  "description": "The Beatles foi uma banda de rock inglesa formada em 1960 na cidade de Liverpool. Formada por John Lennon, Paul McCartney, George Harrison e Ringo Starr, é considerada a banda mais influente de todos os tempos",
+  "backdrop": "https://www.hypeness.com.br/1/2018/03/Capas-11.jpg",
+  "musics": [
+    {
+      "name": "Come Together",
+      "duration": 260 
+    },
+    {
+      "name": "Something",
+      "duration": 197 
+    },
+    {
+      "name": "Maxwell's Silver Hammer",
+      "duration": 196 
+    },
+    {
+      "name": "Oh! Darling",
+      "duration": 196 
+    },
+    {
+      "name": "Octopus's Garden",
+      "duration": 171 
+    },
+    {
+      "name": "I Want You (She's So Heavy)",
+      "duration": 467 
+    },
+    {
+      "name": "Here Comes the Sun",
+      "duration": 185 
+    },
+    {
+      "name": "Because",
+      "duration": 165 
+    }
+
+  ]
+}
